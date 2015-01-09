@@ -46,7 +46,7 @@ gulp.task('sass', function () {
 gulp.task('jade', function () {
     gulp.src(['app/_jade/_pages/*.jade', '!app/_jade/_pages/_*.jade'])
         .pipe(jade({pretty: true}))
-        .pipe(gulp.dest('app/_jade/_pages/'));
+        .pipe(gulp.dest('app/'));
 })
 
 //Минификация изображений

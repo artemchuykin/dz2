@@ -13,33 +13,34 @@ html(lang='ru')
         meta(name="viewport" content="width=device-width, initial-scale=1")
         title
             block title
-            
-            //build:css styles/vendor/vendor.min.css
-            //bower:css
-            link(rel="stylesheet", href="bower_components/normalize.css/normalize.css")
-            //endbower
-            //endbuild
-            //build:css styles/main.min.css
-            link(rel="stylesheet", href="_sass/main.css")
-            //endbuild
-            link(rel="shortcut", href="favicon.ico")
-            //build:js scripts/vendor/modernizr.min.js
-            script(src="bower_components/modernizr/modernizr.js")
-            //endbuild
+
+        //build:css styles/vendor/vendor.min.css
+        //bower:css
+        link(rel="stylesheet", href="bower_components/normalize.css/normalize.css")
+        //endbower
+        //endbuild
+        //build:css styles/main.min.css
+        link(rel="stylesheet", href="_sass/main.css")
+        //endbuild
+        link(rel="shortcut", href="favicon.ico")
+        //build:js scripts/vendor/modernizr.min.js
+        script(src="bower_components/modernizr/modernizr.js")
+        //endbuild
+
     body
         .wrapper
             .maincontent
                 block content
 
-include ../_common/_footer.jade
+        include ../_common/_footer.jade
 
-//build:js scripts/vendor/vendor.min.js
-//bower:js
-script(src="bower_components/jquery/dist/jquery.js")
-script(src="bower_components/html5shiv/dist/html5shiv.js")
-//endbower
-//endbuild
-//build:js scripts/combined.min.js
-script(src="_scripts/main.js")
-script(src="_scripts/plugins.js")
-//endbuild
+        //build:js scripts/vendor/vendor.min.js
+        //bower:js
+        script(src="bower_components/jquery/dist/jquery.js")
+        script(src="bower_components/html5shiv/dist/html5shiv.js")
+        //endbower
+        //endbuild
+        //build:js scripts/combined.min.js
+        script(src="_scripts/_modules/main.js")
+        script(src="_scripts/_plugins/plugins.js")
+        //endbuild
