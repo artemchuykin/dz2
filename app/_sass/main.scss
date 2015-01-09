@@ -1,0 +1,27 @@
+@import "variables";
+
+.module {
+    background: $white;
+    color: $black;
+    text-align: center;
+    .hover {
+        background: #000;
+        color: #fff;
+        font-family: inherit;
+         & a {
+            background: yellow;
+            border: $bord;
+            text-decoration: none;
+        }
+    }
+}
+.container {
+    margin: $margin-center;
+    box-sizing: border-box;
+    ul {
+        display: block;
+        li {
+            list-style: none;
+        }
+    }
+}

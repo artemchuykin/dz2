@@ -1,0 +1,14 @@
+{
+  "name": "dz2",
+  "version": "0.1.0",
+  "authors": [
+    "Artem Chuykin <artemchuykin48@gmail.com>"
+  ],
+  "dependencies": {
+    "normalize.css": "~3.0.2",
+    "jquery": "2",
+    "modernizr": "~2.8.3",
+    "html5shiv": "~3.7.2",
+    "moment": "~2.9.0"
+  }
+}
