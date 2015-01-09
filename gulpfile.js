@@ -44,9 +44,9 @@ gulp.task('sass', function () {
 
 //Компиляция jade в html
 gulp.task('jade', function () {
-    gulp.src(['app/_jade/_layouts/*.jade', '!app/_jade/_pages/_*.jade'])
+    gulp.src(['app/_jade/_pages/*.jade', '!app/_jade/_pages/_*.jade'])
         .pipe(jade({pretty: true}))
-        .pipe(gulp.dest('app/_jade/_layouts/'));
+        .pipe(gulp.dest('app/_jade/_pages/'));
 })
 
 //Минификация изображений
