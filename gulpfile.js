@@ -37,7 +37,7 @@ gulp.task('dist', function () {
 
 //Компиляция scss в css
 gulp.task('sass', function () {
-    gulp.src('app/_sass/*.scss')
+    gulp.src('app/_sass/main.scss')
         .pipe(sass())
         .pipe(gulp.dest('app/_sass/'));
 })

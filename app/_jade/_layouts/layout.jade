@@ -16,7 +16,8 @@ html(lang='ru')
 
         //build:css styles/vendor/vendor.min.css
         //bower:css
-        link(rel="stylesheet", href="bower_components/normalize.css/normalize.css")
+        link(rel='stylesheet', href='bower_components/normalize.css/normalize.css')
+        link(rel='stylesheet', href='bower_components/jscrollpane/style/jquery.jscrollpane.css')
         //endbower
         //endbuild
         //build:css styles/main.min.css
@@ -36,11 +37,14 @@ html(lang='ru')
 
         //build:js scripts/vendor/vendor.min.js
         //bower:js
-        script(src="bower_components/jquery/dist/jquery.js")
-        script(src="bower_components/html5shiv/dist/html5shiv.js")
+        script(src='bower_components/jquery/dist/jquery.js')
+        script(src='bower_components/html5shiv/dist/html5shiv.js')
+        script(src='bower_components/jscrollpane/script/jquery.mousewheel.js')
+        script(src='bower_components/jscrollpane/script/jquery.jscrollpane.js')
+        script(src='bower_components/simple-select/jquery.simpleselect.js')
+        script(src='bower_components/massmans-bxslider/jquery.bxslider.js')
         //endbower
         //endbuild
-        //build:js scripts/combined.min.js
+        //build:js scripts/main.min.js
         script(src="_scripts/_modules/main.js")
-        script(src="_scripts/_plugins/plugins.js")
         //endbuild

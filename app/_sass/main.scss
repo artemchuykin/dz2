@@ -1,0 +1,13 @@
+//Плагины и дополнительные файлы
+@import "_plugins/simpleselect";
+//Базовые настройки, шрифты, примеси и переменные
+@import "_base/_base";
+@import "_base/_fonts";
+@import "_base/_mixins";
+//@import "_base/_variables";
+//Основные блоки
+@import "_modules/_common";
+@import "_modules/_content";
+//@import "_modules/_header";
+@import "_modules/_sidebar";
+@import "_modules/_footer";
